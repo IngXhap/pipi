@@ -3,12 +3,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:sqlserver://localhost:1433;databaseName=final;encrypt=true;trustServerCertificate=true
+    url: jdbc:sqlserver://localhost:1433;databaseName=ahhh;encrypt=true;trustServerCertificate=true
     username: sa
     password: Admin12345
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
   jpa:
     database-platform: org.hibernate.dialect.SQLServerDialect
-    hibernate:
-      ddl-auto: update  # Puede ser 'create', 'update', 'validate' o 'none' | Hibernate no crear�/modificar� la estructura
-    show-sql: true  # Para ver las consultas SQL en consola
